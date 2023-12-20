@@ -20,7 +20,7 @@ var admobReportScope = "https://www.googleapis.com/auth/admob.report"
 
 
 //下载的客户端凭证
-//redirect_uris 重定向地址写回环地址即可，私有IP授权会失败
+//redirect_uris 重定向地址写回环地址即可
 var config = `{"installed":{"client_id":"","redirect_uris":["http://127.0.0.1:8080/call"]}}`
 
 func main() {
